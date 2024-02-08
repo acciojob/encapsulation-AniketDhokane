@@ -3,13 +3,13 @@ package com.driver;
 public class Main {
 
     public static void main(String[] args) {
-        RWOnly rwOnly= new RWOnly();
+        RWOnly obj= new RWOnly();
 
-        rwOnly.a;
-        rwOnly.b;
+     //  rwOnly.a;
+     //   rwOnly.b;
+        obj.setName("Aniket");
+        System.out.println(obj.getName());
 
-        rwOnly.getA();
-        rwOnly.getB();
 
     }
 
