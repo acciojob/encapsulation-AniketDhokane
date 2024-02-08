@@ -2,8 +2,8 @@ package com.driver;
 
 public class RWOnly {
 
-    private int a=0;
-    private int b=0;
+    private int a;
+    private int b;
 
     public int getA(){
         return a;

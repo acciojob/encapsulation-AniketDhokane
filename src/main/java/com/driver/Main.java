@@ -5,10 +5,12 @@ public class Main {
     public static void main(String[] args) {
         RWOnly rwOnly= new RWOnly();
 
-        rwOnly.setA(10);
-        rwOnly.setB(15);
+        //rwOnly.a;
+       // rwOnly.b;
+        
         rwOnly.getA();
-      rwOnly.getB();
+        rwOnly.getB();
+
     }
 
   
