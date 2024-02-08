@@ -7,8 +7,8 @@ public class Main {
 
         rwOnly.setA(10);
         rwOnly.setB(15);
-        System.out.println("The value of a is : "+rwOnly.getA());
-        System.out.println("The value of b id : "+rwOnly.getB());
+        rwOnly.getA();
+      rwOnly.getB();
     }
 
   
